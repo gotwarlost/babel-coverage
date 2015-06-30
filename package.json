@@ -1,0 +1,30 @@
+{
+  "name": "babel-coverage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "babel": "^5.6.6",
+    "babelify": "^6.1.2",
+    "browserify-istanbul": "^0.2.1",
+    "istanbul": "git://github.com/gotwarlost/istanbul.git#source-map",
+    "karma": "^0.12.37",
+    "karma-mocha": "^0.2.0",
+    "karma-browserify": "^4.2.1",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-commonjs": "0.0.13",
+    "karma-coverage": "^0.4.2",
+    "karma-mocha": "^0.2.0",
+    "karma-sinon-chai": "^1.0.0",
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "karma start"
+  }
+}
